@@ -11,6 +11,7 @@
 }
 p{
     color: darkslategray;
+    text-align: justify;
 }
 /* common css end */
 /* menu css start */
@@ -71,19 +72,19 @@ p{
 /* working project css start */
 .working-area{
     background-color: #F8F9FC;
-    padding: 100px 0;
+    padding: 100px 0px 150px;
+}
+.working-area h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
 }
 .working-project .working-content{
-    width: 31%;
+    width: 30%;
     float: left;
-    padding: 5px;
+    padding: 10px;
     box-shadow: 10px 10px 50px lightgray;
-    border-radius: 10px;
-}
-.working-project h2{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 35px;
+    border-radius: 15px;
 }
 .working-project h3{
     text-align: center;
@@ -101,22 +102,47 @@ p{
     margin-right:  2%;
 }
 /* working project css end */
+/* Inquiry-area css start */
 .Inquiry-area{
-    padding: 30px 0px;
-}
-.Inquiry{
+    width: 50%;
+    margin: 50px 0;
+    margin-left: 21%;
+    overflow: hidden;
     background-image: url(../images/Group_33094_1.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: cover;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 300px;
+    padding: 80px 70px;
 }
-.Inquiry span{
+.Inquiry-left, .Inquiry-right{
+    width: 50%;
+    float: left;
+}
+.Inquiry-left h3{
+    color: #fff;
     font-size: 40px;
 }
-.Inquiry a{
+.Inquiry-right .btn{
+    margin: 0;
     float: right;
 }
+/* Inquiry-area css end */
+/* footer part css start */
+.footer-area{
+    text-align: center;
+    padding: 50px 0px 100px;
+}
+.foot-text h3{
+    color: darkslategray;
+    text-transform: uppercase;
+}
+.foot-text h4{
+    color: #363958;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.foot-icons img{
+    width: 60px;
+    margin-right: 10px;
+}
+/* footer part css end */
